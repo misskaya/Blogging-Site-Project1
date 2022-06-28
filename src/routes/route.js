@@ -2,18 +2,9 @@ const express = require("express")
 const router = express.Router();
 const authorController = require("../controllers/authorController")
 const blogsController = require("../controllers/blogsController")
-const middleware = require("../middlewares/auth")
+const middleware = require("../middleware/auth")
 
 
-// create Author
-// router.post("/authors",authorController.createAuthor)
-
-// router.post('/blogs',blogsController.createBlog)
-
-// router.get('/blogs',blogsController.getBlogs)
-// router.put('/blogs/:blogsId',blogsController.updateBlog)
-// router.delete('/blogs/:blogsId',blogsController.deletedByParams)
-// router.delete('/blogs',blogsController.deletedByQuery)
 
 // // // AUTHOR LOGIN
 // router.post("/login",authorController.authorLogin)
